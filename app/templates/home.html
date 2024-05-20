@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400&display=swap" rel="stylesheet">
+        <style>
+
+            body {
+                background-color: #F4F4F4;
+                font-family: "Arial", sans-serif;
+                font-weight: 300;
+                color: #333;
+                line-height: 1.6em;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            .container {
+                text-align: center;
+                max-width: 800px;
+                width: 90%;
+                padding: 2em;
+                background: #FFF;
+                border-radius: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            h1 {
+                margin-bottom: 1em;
+                font-weight: bold;
+                color: #333;
+            }
+
+            .button-container {
+                display: flex;
+                flex-direction: column;
+                gap: 1em;
+            }
+
+            .button-container form {
+                display: inline;
+            }
+
+            .button {
+                background-color: #F07167;
+                color: #FFF;
+                padding: 0.75em 1.5em;
+                border: none;
+                border-radius: 10px;
+                font-size: 1em;
+                font-weight: bold;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+            .button:hover {
+                background-color: #D95A4D;
+            }
+
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <h1>Forecasting Model</h1>
+        <div class="button-container">
+        <form action="/chart" method="POST">
+            <button type="submit" name="model" value="ARIMA" class="button">Autoregressive Integrated Moving Average (ARIMA)</button>
+        </form>
+        <form action="/chart" method="POST">
+            <button type="submit" name="model" value="SARIMA" class="button">Seasonal Autoregressive Integrated Moving Average (SARIMA)</button>
+        </form>
+        <form action="/chart" method="POST">
+            <button type="submit" name="model" value="ETS" class="button">Error-Trend-Seasonality (ETS)</button>
+        </form>
+        <form action="/chart" method="POST">
+            <button type="submit" name="model" value="LSTM" class="button">Long Short-Term Memory (LSTM)</button>
+        </form>
+        <form action="/chart" method="POST">
+            <button type="submit" name="model" value="Prophet" class="button">Prophet</button>
+        </form>
+        <form action="/chart" method="POST">
+            <button type="submit" name="model" value="SVR" class="button">Support Vector Regressor (SVR)</button>
+        </form>
+        <form action="/chart" method="POST">
+            <button type="submit" name="model" value="Hybrid" class="button">Hybrid</button>
+        </form>
+        </div>
+    </div>
+    </body>
+</html>
