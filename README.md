@@ -10,11 +10,11 @@ Link for the data: [Kaggle - Hourly Energy Consumption](https://www.kaggle.com/d
 
 ## Notebooks Description
 
-### 1. ARIMA.ipynb
-This notebook contains the implementation of the ARIMA (AutoRegressive Integrated Moving Average) model for time series forecasting.
+### 1. PreProcessing_FeatureEngineering.ipynb
+This notebook covers the preprocessing and feature engineering steps necessary for preparing the data for modeling.
 
-### 2. ETS.ipynb
-This notebook demonstrates the use of the ETS (Error, Trend, Seasonal) model for time series forecasting.
+### 2. ARIMA.ipynb
+This notebook contains the implementation of the ARIMA (AutoRegressive Integrated Moving Average) model for time series forecasting.
 
 ### 3. Hybrid.ipynb
 This notebook combines ANN (Artificial Neural Network) and ARIMA models to create a hybrid forecasting model.
@@ -22,8 +22,8 @@ This notebook combines ANN (Artificial Neural Network) and ARIMA models to creat
 ### 4. LSTM.ipynb
 This notebook includes the implementation of the LSTM (Long Short-Term Memory) neural network model for time series forecasting.
 
-### 5. PreProcessing_FeatureEngineering.ipynb
-This notebook covers the preprocessing and feature engineering steps necessary for preparing the data for modeling.
+### 5. ETS.ipynb
+This notebook demonstrates the use of the ETS (Error, Trend, Seasonal) model for time series forecasting.
 
 ### 6. SARIMA.ipynb
 This notebook implements the SARIMA (Seasonal AutoRegressive Integrated Moving Average) model. Note that this notebook is currently incomplete.
