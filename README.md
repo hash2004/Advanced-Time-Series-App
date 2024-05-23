@@ -34,7 +34,7 @@ This notebook contains the implementation of the SVR (Support Vector Regression)
 ### 8. prophet.ipynb
 This notebook demonstrates the use of Facebook's Prophet model for time series forecasting.
 
-## Frontend Code
+## Contribution
 
 The frontend code was developed by [huzaifakhan04](https://github.com/huzaifakhan04). 
 
